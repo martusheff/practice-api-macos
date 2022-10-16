@@ -14,6 +14,8 @@
 		DF70460A28FB92CB00D463C7 /* PracticeAPITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF70460928FB92CB00D463C7 /* PracticeAPITests.swift */; };
 		DF70461428FB92CB00D463C7 /* PracticeAPIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF70461328FB92CB00D463C7 /* PracticeAPIUITests.swift */; };
 		DF70461628FB92CB00D463C7 /* PracticeAPIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF70461528FB92CB00D463C7 /* PracticeAPIUITestsLaunchTests.swift */; };
+		DF70462728FBC14100D463C7 /* KeyValueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF70462628FBC14100D463C7 /* KeyValueView.swift */; };
+		DF70462928FBCCF600D463C7 /* NSTextField+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF70462828FBCCF600D463C7 /* NSTextField+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		DF70460F28FB92CB00D463C7 /* PracticeAPIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PracticeAPIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF70461328FB92CB00D463C7 /* PracticeAPIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeAPIUITests.swift; sourceTree = "<group>"; };
 		DF70461528FB92CB00D463C7 /* PracticeAPIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeAPIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DF70462628FBC14100D463C7 /* KeyValueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyValueView.swift; sourceTree = "<group>"; };
+		DF70462828FBCCF600D463C7 /* NSTextField+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSTextField+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 			children = (
 				DF7045F728FB92C900D463C7 /* PracticeAPIApp.swift */,
 				DF7045F928FB92C900D463C7 /* ContentView.swift */,
+				DF70462828FBCCF600D463C7 /* NSTextField+Extensions.swift */,
+				DF70462628FBC14100D463C7 /* KeyValueView.swift */,
 				DF7045FB28FB92CA00D463C7 /* Assets.xcassets */,
 				DF70460028FB92CA00D463C7 /* PracticeAPI.entitlements */,
 				DF7045FD28FB92CA00D463C7 /* Preview Content */,
@@ -259,6 +265,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF70462928FBCCF600D463C7 /* NSTextField+Extensions.swift in Sources */,
+				DF70462728FBC14100D463C7 /* KeyValueView.swift in Sources */,
 				DF7045FA28FB92C900D463C7 /* ContentView.swift in Sources */,
 				DF7045F828FB92C900D463C7 /* PracticeAPIApp.swift in Sources */,
 			);
